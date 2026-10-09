@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorties Quebec//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:murale-video-lueurs-de-memoire-2026-10-09@sorties-quebec
+DTSTAMP:20261009T141229Z
+DTSTART;TZID=America/Toronto:20261010T200000
+DTEND;TZID=America/Toronto:20261010T230000
+SUMMARY:Lumière – Murale vidéo Lueurs de mémoire
+LOCATION:Bibliothèque Gabrielle-Roy (façade est\, à voir de la place Jac
+ ques-Cartier)\, 350 rue Saint-Joseph Est\, Québec
+URL:https://www.quebec-cite.com/fr/quoi-faire-quebec/evenements/murale-vide
+ o-lueurs-de-memoire
+DESCRIPTION:Projection vidéo sur la façade de la bibliothèque\, tous les
+  soirs. Gratuit.\n\nhttps://www.quebec-cite.com/fr/quoi-faire-quebec/evene
+ ments/murale-video-lueurs-de-memoire
+END:VEVENT
+END:VCALENDAR

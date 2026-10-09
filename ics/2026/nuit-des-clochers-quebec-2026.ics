@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorties Quebec//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nuit-des-clochers-quebec-2026@sorties-quebec
+DTSTAMP:20261009T141229Z
+DTSTART;TZID=America/Toronto:20261010T190000
+DTEND;TZID=America/Toronto:20261010T213000
+SUMMARY:Visite – La Nuit des clochers
+LOCATION:Vieux-Québec\, départ au choix : Basilique-cathédrale Notre-Dam
+ e\, 16 rue De Buade\, Québec
+URL:https://www.quebec-cite.com/fr/quoi-faire-quebec/evenements/la-nuit-des
+ -clochers
+DESCRIPTION:Six églises et chapelles patrimoniales du Vieux-Québec ouvert
+ es en soirée\, à visiter à pied à son rythme. Gratuit.\n\nhttps://www.
+ quebec-cite.com/fr/quoi-faire-quebec/evenements/la-nuit-des-clochers
+END:VEVENT
+END:VCALENDAR

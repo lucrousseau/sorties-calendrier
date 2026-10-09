@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorties Quebec//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:harry-manx-palais-montcalm-2026-11-13@sorties-quebec
+DTSTAMP:20261009T141229Z
+DTSTART;TZID=America/Toronto:20261113T193000
+DTEND;TZID=America/Toronto:20261113T213000
+SUMMARY:Concert – Harry Manx : Guitar Bazaar
+LOCATION:Salle Raoul-Jobin\, Palais Montcalm\, 995 place D'Youville\, Québ
+ ec
+URL:https://www.palaismontcalm.ca/concert-spectacle-quebec/harry-manx-13-no
+ vembre-2026/
+DESCRIPTION:Blues acoustique\, guitare et slide. 55\,95 $ par personne.\n\n
+ https://www.palaismontcalm.ca/concert-spectacle-quebec/harry-manx-13-novem
+ bre-2026/
+END:VEVENT
+END:VCALENDAR
