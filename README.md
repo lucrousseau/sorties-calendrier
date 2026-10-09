@@ -1,40 +1,19 @@
 # sorties-calendrier
 
-Fichiers **.ics** « Ajouter au calendrier » pour des idées de sorties à Québec (spectacles, visites, marchés, expos…).
+Fichiers iCalendar (`.ics`) pour ajouter des sorties à Québec (spectacles, visites, marchés, expos) à un calendrier en un clic. Un fichier par événement, publié avec GitHub Pages : https://lucrousseau.github.io/sorties-calendrier/
 
-Chaque suggestion d'un courriel hebdomadaire a son propre fichier : un clic, et l'événement s'ajoute à Calendrier (Apple, Google, Outlook).
-
-Publié avec GitHub Pages : https://lucrousseau.github.io/sorties-calendrier/
-
-## Contenu
+## Structure
 
 ```
-ics/
-└── 2026/
-    ├── nuit-des-clochers-quebec-2026.ics
-    ├── harry-manx-palais-montcalm-2026-11-13.ics
-    └── …
+ics/<année>/<id>.ics
 ```
 
-- Un fichier par événement : `ics/AAAA/<id>.ics`.
-- Un événement : titre (« Catégorie – Nom »), date et heure (fuseau America/Toronto), lieu avec adresse, lien vers la page officielle, courte description et prix.
-- Rien d'autre. Pas de code, pas de données, pas d'historique de préférences.
+Chaque fichier décrit un seul événement : titre, date et heure (America/Toronto), lieu et adresse, lien vers la page officielle, courte description et prix. Les fichiers déjà publiés ne sont pas supprimés, pour que les liens existants restent valides.
 
-## Ce dépôt est public
+## Génération
 
-Tout ce qui s'y trouve est lisible par n'importe qui, y compris dans l'historique git. On n'y met donc **que des informations publiques sur des activités** :
-
-- aucun nom de personne, aucune adresse courriel, aucun numéro de téléphone personnel ;
-- aucune adresse domicile, aucun trajet, aucune habitude ou préférence ;
-- aucune note personnelle, aucun lien vers un calendrier, une mémoire ou un compte privé ;
-- aucun jeton, mot de passe ni identifiant.
-
-Les fichiers sont générés par un script qui refuse les contenus suspects (adresses courriel, noms de personnes). Un fichier publié par erreur se retire par un nouveau commit, mais il reste dans l'historique : il faut alors le signaler et nettoyer l'historique.
-
-## Mise à jour
-
-Automatique, une fois par semaine : les nouveaux fichiers s'ajoutent, les anciens restent en place pour que les liens des courriels précédents continuent de fonctionner.
+Les fichiers sont produits automatiquement par un script qui valide les liens et refuse tout contenu personnel (adresses courriel, noms). Ils ne contiennent que de l'information publique sur des activités.
 
 ## Licence
 
-Les descriptions viennent des pages publiques des organisateurs ; les droits restent aux organisateurs.
+Les descriptions proviennent des pages publiques des organisateurs, dont les droits leur appartiennent.
