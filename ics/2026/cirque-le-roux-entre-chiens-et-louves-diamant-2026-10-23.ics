@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorties Quebec//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cirque-le-roux-entre-chiens-et-louves-diamant-2026-10-23@sorties-quebec
+DTSTAMP:20261022T153910Z
+DTSTART;TZID=America/Toronto:20261023T193000
+DTEND;TZID=America/Toronto:20261023T205000
+SUMMARY:Danse – Entre chiens et louves (Cirque Le Roux)
+LOCATION:Le Diamant\, Auditorium Hydro-Québec\, 966 rue Saint-Jean\, Québ
+ ec
+URL:https://www.lediamant.ca/en/programming/entre-chiens-et-louves
+DESCRIPTION:Cirque contemporain mêlant acrobaties\, danse et humour\, mis 
+ en scène comme un film. À partir de 66 $.\n\nhttps://www.lediamant.ca/en
+ /programming/entre-chiens-et-louves
+END:VEVENT
+END:VCALENDAR
