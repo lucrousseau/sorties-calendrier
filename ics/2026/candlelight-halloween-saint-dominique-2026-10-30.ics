@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorties Quebec//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:candlelight-halloween-saint-dominique-2026-10-30@sorties-quebec
+DTSTAMP:20261029T155133Z
+DTSTART;TZID=America/Toronto:20261030T183000
+DTEND;TZID=America/Toronto:20261030T193000
+SUMMARY:Concert intime – Candlelight : soirée hantée sur les airs class
+ iques d'Halloween
+LOCATION:Église Saint-Dominique\, 175 Grande Allée Ouest\, Québec
+URL:https://www.quebec-cite.com/fr/quoi-faire-quebec/evenements/candlelight
+ -une-soiree-hantee-sur-les-airs-classiques-dhalloween
+DESCRIPTION:Quatuor à cordes à la chandelle\, programme d'Halloween. Séa
+ nces à 18 h 30 et 20 h 30. Dès 31\,86 $.\n\nhttps://www.quebec-cite.com/
+ fr/quoi-faire-quebec/evenements/candlelight-une-soiree-hantee-sur-les-airs
+ -classiques-dhalloween
+END:VEVENT
+END:VCALENDAR
