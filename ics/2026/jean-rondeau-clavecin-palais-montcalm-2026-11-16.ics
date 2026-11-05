@@ -22,16 +22,16 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:jean-rondeau-clavecin-palais-montcalm-2026-11-16@sorties-quebec
-DTSTAMP:20261022T153910Z
+DTSTAMP:20261105T164022Z
 DTSTART;TZID=America/Toronto:20261116T193000
 DTEND;TZID=America/Toronto:20261116T204000
 SUMMARY:Concert intime – Jean Rondeau\, clavecin
-LOCATION:Palais Montcalm\, Salle Raoul-Jobin\, 995 place D'Youville\, Québ
+LOCATION:Palais Montcalm\, salle Raoul-Jobin\, 995 place D'Youville\, Québ
  ec
 URL:https://www.clubmusicaldequebec.com/cmq/index.php/programmation/saison-
  2026-2027/rondeau
-DESCRIPTION:Hommage à Louis Couperin pour les 400 ans de sa naissance\, en
- viron 1 h 10 sans entracte. Dès 57\,50 $.\n\nhttps://www.clubmusicaldeque
- bec.com/cmq/index.php/programmation/saison-2026-2027/rondeau
+DESCRIPTION:Hommage à Louis Couperin pour ses 400 ans\, environ 1 h 10 san
+ s entracte. Billets de 57\,50 $ à 95\,50 $.\n\nhttps://www.clubmusicaldeq
+ uebec.com/cmq/index.php/programmation/saison-2026-2027/rondeau
 END:VEVENT
 END:VCALENDAR

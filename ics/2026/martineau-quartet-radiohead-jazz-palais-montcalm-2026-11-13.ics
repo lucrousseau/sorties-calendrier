@@ -23,16 +23,16 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:martineau-quartet-radiohead-jazz-palais-montcalm-2026-11-13@sorties-que
  bec
-DTSTAMP:20261015T154137Z
+DTSTAMP:20261105T164022Z
 DTSTART;TZID=America/Toronto:20261113T200000
 DTEND;TZID=America/Toronto:20261113T220000
-SUMMARY:Concert – Radiohead jazz\, Guillaume Martineau Quartet
+SUMMARY:Concert intime – Radiohead jazz\, Guillaume Martineau Quartet
 LOCATION:Salle D'Youville\, Palais Montcalm\, 995 place D'Youville\, Québe
  c
 URL:https://www.palaismontcalm.ca/concert-spectacle-quebec/guillaume-martin
  eau-quartet-13-novembre-2026/
-DESCRIPTION:Le répertoire de Radiohead revisité en jazz par un quartette.
-  39\,95 $.\n\nhttps://www.palaismontcalm.ca/concert-spectacle-quebec/guill
- aume-martineau-quartet-13-novembre-2026/
+DESCRIPTION:Radiohead revisité en jazz par un quartette. Billets 39\,95 $.
+ \n\nhttps://www.palaismontcalm.ca/concert-spectacle-quebec/guillaume-marti
+ neau-quartet-13-novembre-2026/
 END:VEVENT
 END:VCALENDAR
